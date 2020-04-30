@@ -1,0 +1,193 @@
+.page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.page-grid {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.img img {
+    max-width: 23rem;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.text h3 {
+    font-size: 2.5rem;
+    color: var(--main);
+}
+
+.red-color {
+    color: var(--secondary);
+}
+
+.text p {
+    font-size: 1.5rem;
+    color: var(--main);
+}
+
+#typed {
+    color: var(--secondary);
+}
+
+.page {
+    width: 100vw;
+    background: linear-gradient(to bottom right, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.5) ), 
+    url(/assets/img/code_programming_text_140050_1920x1080.jpg) no-repeat;
+    object-fit: contain;
+}
+
+.downloadcv {
+    top: 15rem;
+    left: 0px;
+    z-index: 5;
+    position: fixed;
+}
+
+.downloadcv a {
+    font-size: 1.5rem;
+    padding: 10px;
+    color: var(--button);
+}
+
+.contact-link {
+    padding: 0;
+}
+
+.contact-link li {
+    list-style-type: none;
+    padding: 0.2rem 0.2rem;
+    text-align: center;
+    border: 1px solid var(--button);
+}
+
+.contact-link li a {
+    font-size: 1.5rem;
+}
+
+.timeline-grid {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.5) ),
+    url(/assets/img/hourglass_stones_blur_120797_1920x1080.jpg) no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.timeline {
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    padding: 60px 0;
+    height: 83vh;
+}
+
+.timeline:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 86vh;
+    background-color: var(--paragraph);
+}
+
+.timeline ul {
+    margin: 0;
+    padding: 0;
+}
+
+.timeline ul li {
+    list-style-type: none;
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border: 1px solid var(--paragraph);
+    border-radius: 5px;
+    margin: 10px -45px;
+    background-color: var(--background);
+}
+
+.timeline ul li:nth-child(odd) {
+    float: left;
+    clear: both;
+    text-align: right;
+}
+
+.timeline ul li:nth-child(even) {
+    float: right;
+    clear: both;
+    text-align: left;
+}
+
+.timeline ul li:nth-child(odd)::before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    right: -52px;
+    width: 10px;
+    height: 10px;
+    background: rgba( 223, 33, 99, 1);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba( 223, 33, 99, 0.2);
+}
+
+.timeline ul li:nth-child(even)::before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    left: -50px;
+    width: 10px;
+    height: 10px;
+    background: rgba( 223, 33, 99, 1);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba( 223, 33, 99, 0.2);
+}
+
+.timeline ul li .time h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: var(--secondary);
+}
+
+.timeline ul li .time {
+    padding: 15px;
+    border: 1px solid var(--main);
+    background-color: var(--background);
+    border-radius: 999px;
+}
+
+.timeline ul li:nth-child(odd) .time {
+    position: absolute;
+    top: 20px;
+    right: -165px;
+    margin: 0;
+    padding: 8px 16px;
+}
+
+.timeline ul li:nth-child(even) .time {
+    position: absolute;
+    top: 20px;
+    left: -165px;
+    margin: 0;
+    padding: 8px 16px;
+}
+
+.content h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: var(--highlight);
+}
+
+.content p {
+    font-size: 1rem;
+    color: var(--main);
+}
