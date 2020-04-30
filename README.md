@@ -6,3 +6,5 @@ I used libraries :
 * [fullPagejs](https://github.com/alvarotrigo/fullPage.js/)
 ## My Demo
 At the moment, I still not complete it yet (content and responsive) and this is is [myWebsite]()
+
+Recommend review with fullscreen of desktop from 16"
