@@ -1,5 +1,6 @@
 {
   "hosting": {
+  	"site": "thinh-webdemo",
     "public": "public",
     "ignore": [
       "firebase.json",

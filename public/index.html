@@ -5,10 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/public/assets/css/base.css">
-    <link rel="stylesheet" href="/public/assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.14.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.14.2/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
     <title>My Life</title>
 </head>
 <body>   
@@ -16,16 +25,16 @@
         <div class="downloadcv">
             <ul class="contact-link">
                 <li>
-                    <a href="https://github.com/hnthinh2909/"><i class="fab fa-github-square"></i></a>
+                    <a href="https://github.com/hnthinh2909/" target="__blank"><i class="fab fa-github-square"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/ngocthinh.2909"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.facebook.com/ngocthinh.2909" target="__blank"><i class="fab fa-facebook-square"></i></a>
                 </li>
                 <li>
                     <a href="#"><i class="fab fa-google"></i></a>
                 </li>
                 <li>
-                    <a href="/public/assets/HUYNH-NGOC-THINH-TopCV.vn-010520.220130.pdf" download=""><i class="fas fa-file-download"></i></a>
+                    <a href="./assets/HUYNH-NGOC-THINH-TopCV.vn-010520.220130.pdf" download=""><i class="fas fa-file-download"></i></a>
                 </li>
             </ul>
         </div>
@@ -37,7 +46,7 @@
                         <p>My target in future is come to Fullstack - DevOps</p>
                 </div>
                 <div class="img">
-                    <img src="/public/assets/img/84331650_804146416732026_4684147811837542400_n.jpg" alt="">
+                    <img src="./assets/img/84331650_804146416732026_4684147811837542400_n.jpg" alt="">
                 </div>
             </div>
             
@@ -131,7 +140,7 @@
         loop: true,
         });
     </script>
-    <script type="text/javascript" src="/public/dist/fullpage.js"></script>
+    <script type="text/javascript" src="./dist/fullpage.js"></script>
     <script type="text/javascript">
         fullpage('#fullpage', {
             autoScrolling: true,
@@ -140,29 +149,6 @@
             navigationTooltips: ['Page', 'Timeline', 'Skill'],
             showActiveTooltip: true,
         });
-    </script>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-        https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
-
-    <script>
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
-        apiKey: "AIzaSyDlX5_MJOiulfoMmv4gVnmjLxRs_EaunU8",
-        authDomain: "mywebsite-demo-c0304.firebaseapp.com",
-        databaseURL: "https://mywebsite-demo-c0304.firebaseio.com",
-        projectId: "mywebsite-demo-c0304",
-        storageBucket: "mywebsite-demo-c0304.appspot.com",
-        messagingSenderId: "861011602949",
-        appId: "1:861011602949:web:d47302c616f8be190e366c",
-        measurementId: "G-L5PHE2EJNS"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
     </script>
 </body>
 </html>
