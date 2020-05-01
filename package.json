@@ -1,0 +1,25 @@
+{
+  "name": "myprofile",
+  "version": "1.0.0",
+  "description": "This time, I made a web about me! ## Library I used libraries : * [Typed.js](https://github.com/mattboldt/typed.js/) * [fullPagejs](https://github.com/alvarotrigo/fullPage.js/) ## My Demo At the moment, I still not complete it yet (content and responsive).",
+  "main": "examples.js",
+  "dependencies": {
+    "firebase": "^7.14.2",
+    "fullpage.js": "^3.0.8",
+    "typed.js": "^2.0.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnthinh2909/my-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hnthinh2909/my-website/issues"
+  },
+  "homepage": "https://github.com/hnthinh2909/my-website#readme"
+}

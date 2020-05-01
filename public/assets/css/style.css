@@ -73,7 +73,7 @@
 .page {
     width: 100vw;
     background: linear-gradient(to bottom right, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.5) ), 
-    url(/assets/img/code_programming_text_140050_1920x1080.jpg) no-repeat;
+    url(/public/assets/img/code_programming_text_140050_1920x1080.jpg) no-repeat;
     object-fit: contain;
 }
 
@@ -81,7 +81,7 @@
     top: 15rem;
     left: 0px;
     z-index: 5;
-    position: fixed;
+    position: absolute;
 }
 
 .downloadcv a {
@@ -109,7 +109,7 @@
     width: 100%;
     height: 100vh;
     background: linear-gradient(to bottom right, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.5) ),
-    url(/assets/img/hourglass_stones_blur_120797_1920x1080.jpg) no-repeat;
+    url(/public/assets/img/hourglass_stones_blur_120797_1920x1080.jpg) no-repeat;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -246,7 +246,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom right, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.5) );
+    background: linear-gradient(to bottom right, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.5) ),
+    url(/public/assets/img/164609.jpg) no-repeat;
+    background-size: cover;
+    flex-direction: column;
 }
 
 .line-percent {
@@ -259,17 +262,21 @@
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
-    border-bottom: 5px solid red;
-    border-left: 5px solid red;
+    border-bottom: 3px solid var(--secondary);
+    border-left: 3px solid var(--secondary);
     box-sizing: border-box;
+
 }
 
 .chart-layout {
     align-self: flex-end;
-    width: 15px;
+    width: 20px;
     background-color: var(--button);
     height: var(--percent);
     animation: growth ease-in 2s;
+    text-align: center;
+    color: var(--background);
+    font-weight: 700;
 }
 
 @keyframes growth {
@@ -292,3 +299,52 @@
     margin-top: 50px;
 } */
 
+.js {
+    background-color: var(--main);
+}
+
+.html {
+    background-color: var(--button);
+}
+
+.css {
+    background-color: var(--secondary);
+}
+
+.name {
+    margin-top: 2rem;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    animation: 1.5s ease-out 0s 1 slideInFromLeft;
+}
+
+.name span {
+    font-size: 1rem;
+    width: 20px;
+    text-align: center;
+    color: var(--main);
+}
+
+#fp-nav {
+    right: 10px;
+}
+
+
+
+.fp-right ul li a span:nth-child(1) {
+    color: var(--main);
+    align-items: center;
+    visibility: hidden;
+}
+
+.fp-right ul li a span:nth-child(2) {
+    background-color: var(--button) !important;
+    box-shadow: 0 0 0 2px var(--paragraph);
+}
+
+.fp-tooltip {
+    right: 25px;
+    justify-content: center;
+}
