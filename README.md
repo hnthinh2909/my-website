@@ -1,5 +1,6 @@
 # My Website
 This time, I made a web about me!
+And It's just demo, I will add my information at a someday in future. 
 ## Library
 I used libraries :
 * [Typed.js](https://github.com/mattboldt/typed.js/)
