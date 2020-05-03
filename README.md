@@ -8,6 +8,6 @@ I used libraries :
 ## My Demo
 At the moment, I still not complete it yet (content and responsive).
 
-Recommend review with fullscreen of desktop from 16".
+Recommend review with fullscreen of desktop from 16" or more.
 
 And this is is [myWebsite](https://thinh-webdemo.web.app/#Page)
