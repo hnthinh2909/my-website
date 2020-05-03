@@ -103,6 +103,11 @@
 
 .contact-link li a {
     font-size: 1.5rem;
+    transition: ease-out 0.2s;
+}
+
+.contact-link li a:hover {
+    color: var(--main);
 }
 
 .timeline-grid {
@@ -348,7 +353,6 @@
     right: 25px;
     justify-content: center;
 }
-
 
 
 /* Loader */
